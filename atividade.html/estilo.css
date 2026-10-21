@@ -1,0 +1,58 @@
+* {box-sizing:border-box;}
+.barra-topo{ 
+    left: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    background-color: rgb(224, 133, 164);
+}
+.barra-topo ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.barra-topo li{
+float: left;
+}
+
+.barra-topo a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.aviso{
+    position: relative;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: rgb(226, 154, 187);
+}
+#fechar-aviso{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.mensagem{
+    color: rgb(87, 53, 34);
+    font-weight: bold;
+}
+
+main p{ 
+    color: #444;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1{
+    margin-top: 100px;
+    color: rgb(143, 108, 130)
+    ;
+}
+main{
+    margin-top: 30px;
+}
+.barra-topo a:hover{
+    background-color: rgb(255, 73, 170);
+}
